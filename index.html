@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Malkara Petlas bayii Bulvar Oto Lastik; mevsime uygun lastik seçimi, değişim ve bakım hizmetleriyle güvenli, kaliteli ve hızlı hizmet sunar.">
+        <meta name="keywords" content="Malkara lastik, Petlas bayii, oto lastik değişimi, Tekirdağ oto lastik, lastik tamiri">
+        
+        <title>Muhammed Salih Acar | Portfolyo</title>
+        <link rel="canonical" href="https://msacar.site/" />
+        <link rel="icon" href="logo.png">
+        <script src="https://cdn.tailwindcss.com"></script>
+      
+        <!-- Open Graph (Facebook, WhatsApp vs) -->
+        <meta property="og:title" content="Muhammed Salih Acar | Yazılım Geliştirici Portfolyo" />
+        <meta property="og:description" content="Portfolyo Websitemde hakkımda detaylı bilgiye ulaşabilirsiniz." />
+        <meta property="og:url" content="https://msacar.site/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="logo.png" />
+      
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Muhammed Salih Acar | Yazılım Geliştirici Portfolyo" />
+        <meta name="twitter:description" content="Portfolyo Websitemde hakkımda detaylı bilgiye ulaşabilirsiniz." />
+        <meta name="twitter:image" content="logo.png" />
+      
+        <link rel="stylesheet" href="styles.css" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        
+      </head>
+<body class="text-white">
+    <div class="row-sm-12 fixed-top header-top">
+          <div class="d-flex justify-center items-center py-1 text-light font-bold">
+            <!-- <div class="left-info">
+              <span><i class="fa-solid fa-phone"></i> 0542 717 22 33</span> #395749
+            </div> -->
+            <div class="header-social">
+                <a href="https://github.com/ms-acar" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@muhammedsalihacar" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="https://www.linkedin.com/in/muhammed-salih-acar-206826329/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://stackoverflow.com/users/30600043/ms-acar" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+              </div>
+            <!-- <div class="isim">
+              <span><i class="fa-solid fa-id-badge"></i> Halit REYHAN</span>
+            </div> -->
+          </div>
+      </div>
+    <!-- Navigation -->
+    <nav class="fixed top-7 w-full bg-transparent z-50 navbar-transition" id="navbar">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="status-indicator"></div>
+                    <span class="code-font text-green-400">&lt;msacar.site/&gt;</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-green-400 transition-colors">Hakkımda</a>
+                    <a href="#courses" class="hover:text-green-400 transition-colors">Eğitimler</a>
+                    <a href="#projects" class="hover:text-green-400 transition-colors">Projeler</a>
+                    <a href="#blogs" class="hover:text-green-400 transition-colors">Bloglar</a>
+                    <a href="#contact" class="hover:text-green-400 transition-colors">İletişim</a>
+                </div>
+                <button class="md:hidden text-xl" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden">
+            <div class="px-6 py-4 space-y-4">
+                <a href="#about" class="block hover:text-green-400 transition-colors">Hakkımda</a>
+                <a href="#courses" class="block hover:text-green-400 transition-colors">Eğitimler</a>
+                <a href="#projects" class="block hover:text-green-400 transition-colors">Projeler</a>
+                <a href="#blogs" class="block hover:text-green-400 transition-colors">Bloglar</a>
+                <a href="#contact" class="block hover:text-green-400 transition-colors">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section id="home" class="hero-section min-h-screen flex items-center justify-center relative">
+        <!-- Floating Code Elements -->
+        <div class="floating-code top-20 left-10" style="animation-delay: -1s;">const skills = ['JavaScript', 'Tailwind', '.NET'];</div>
+        <div class="floating-code top-40 right-20" style="animation-delay: -3s;">function buildFuture() { return 'innovation'; }</div>
+        <div class="floating-code bottom-32 left-20" style="animation-delay: -2s;">&lt;div className="developer-mindset"&gt;</div>
+        <div class="floating-code bottom-20 right-10" style="animation-delay: -4s;">git commit -m "Level up complete"</div>
+        
+        <div class="text-center z-10 max-w-4xl mx-auto px-6  mt-20">
+            <div class="mb-6">
+                <span class="code-font text-green-400 text-lg">&lt;h1&gt;</span>
+            </div>
+            <h1 class=" font-bold mb-6">
+                <span class="text-md md:text-xl neon-glow">Ben bir;</span><br>
+                <span class="text-6xl md:text-8xl gradient-text">Yazılım</span><br>
+                <span class="text-6xl md:text-8xl neon-glow">Geliştirici</span>
+            </h1>
+            <div class="mb-6">
+                <span class="code-font text-green-400 text-lg">&lt;/h1&gt;</span>
+            </div>
+            
+            <div class="code-font text-xl md:text-2xl mb-8 text-gray-300">
+                <span id="typingText" class="typing-animation">Geleceği kod satırlarıyla inşa etmeye çalışan bir öğrenci.</span>
+            </div>
+            
+            <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+                Gömülü sistemler, web & mobil uygulamaları geliştirme ve tasarım konularında bilgi ve becerilerimi geliştirmekteyim. 
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#projects" class="bg-gradient-to-r from-green-500 to-blue-500 px-8 py-4 rounded-full font-semibold hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-green-500/25">
+                    Çalışmalarım
+                </a>
+                <a href="#contact" class="border-2 border-green-400 px-8 py-4 rounded-full font-semibold hover:bg-green-400/10 transition-all duration-300">
+                    İrtibat Kurun
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span class="code-font text-green-400">&lt;</span>
+                <span class="gradient-text">Hakkımda</span>
+                <span class="code-font text-green-400">/&gt;</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div>
+                        <img class="w-64 h-64 mx-auto rounded-full flex" src="foto.jpg" alt="foto">
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <h3 class="text-3xl font-bold text-green-400">Muhammed Salih Acar</h3>
+                        <a target="_blank" href="https://www.dropbox.com/scl/fi/9b9jw7xf6c03vjow37edj/CV2025.pdf?rlkey=mjwzvotei2x0wzn3u5w8buyz3&st=obwxuc1w&dl=0">
+                        <button class="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded-md">
+                            <i class="fa-brands fa-dropbox"></i> CV
+                        </button>
+                        </a>
+                      </div>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                    Bilgisayar Mühendisliği 2. sınıf öğrencisi olarak analitik düşünme ve teknik becerilerimle, yazılım alanında kendimi daha da ileriye taşımak için çalışmalarımı sürdürüyorum. Özellikle yazılım mimarisi ve arayüz tasarımı üzerine yoğunlaşarak çeşitli bootcamp'ler ve projelerde yer almaktayım. 
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-800/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-400 mb-2">Odak Alanlarım</h4>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Web Geliştirme&Tasarım</li>
+                                <li>• Mobil Uygulamalar</li>
+                                <li>• Gömülü Sistemler</li>
+                                <li>• Linux Server&Firewall</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-gray-800/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-400 mb-2">İlgi Alanlarım</h4>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Yapay Zeka Ve Makine Öğrenmesi</li>
+                                <li>• Siber Güvenlik</li>
+                                <li>• Ağ Yapıları</li>
+                                <li>• IOT Uygulamaları</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span class="code-font text-green-400">&lt;</span>
+                <span class="gradient-text">Yetkinlikler</span>
+                <span class="code-font text-green-400">/&gt;</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Course 1 -->
+            <div class="course-card rounded-xl p-6 relative">
+                <div class="text-4xl mb-4"><i class="fa-brands fa-microsoft"></i></div>
+                <h3 class="text-2xl font-bold mb-3 text-green-400">C# & <br>.NET Platform</h3>
+                <div class="mb-4">
+                    <div class="flex justify-between text-sm mb-2">
+                        <span>İlerleme</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="progress-bar h-2 rounded-full" style="width: 55%"></div>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">C# üzerine eğitimler alarak ve projeler üzerinde çalışarak kendimi geliştirmekteyim.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">C#</span>
+                    <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">.NET</span>
+                    <span class="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-sm">WinForms</span>
+                </div>
+                <div class="text-sm text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>Süreç: 6 Ay
+                </div>
+            </div>
+            <!-- Course 2 -->
+            <div class="course-card rounded-xl p-6 relative">
+                <div class="text-4xl mb-4">🌐</div>
+                <h3 class="text-2xl font-bold mb-3 text-green-400">Full-Stack Development</h3>
+                <div class="mb-4">
+                    <div class="flex justify-between text-sm mb-2">
+                        <span>İlerleme</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="progress-bar h-2 rounded-full" style="width: 60%"></div>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">Frontend, Backend, UI/UX ve API yapıları üzerinde kendimi geliştiriyorum.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">React</span>
+                    <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Tailwind</span>
+                    <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                    <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm">MERN Stack</span>
+                </div>
+                <div class="text-sm text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>Süreç: 1 Yıl
+                </div>
+            </div>
+            <!-- Course 3 -->
+            <div class="course-card rounded-xl p-6 relative">
+                <div class="text-4xl mb-4 text-gray-600"><i class="fa-solid fa-microchip"></i></div>
+                <h3 class="text-2xl font-bold mb-3 text-green-400">Gömülü Sistem Programcılığı</h3>
+                <div class="mb-4">
+                    <div class="flex justify-between text-sm mb-2">
+                        <span>İlerleme</span>
+                        <span>45%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="progress-bar h-2 rounded-full" style="width: 45%"></div>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-4">Donanım seviyesinde yazılım geliştirerek mikrodenetleyicilerle çalışan sistemleri programlamayı öğreniyorum.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-gray-500/20 text-gray-300 px-3 py-1 rounded-full text-sm">C</span>
+                    <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">C++</span>
+                    <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">STM-32</span>
+                </div>
+                <div class="text-sm text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>Süreç: 1 Yıl
+                </div>
+                                </div>
+                <!-- Course 4 -->
+                <div class="course-card rounded-xl p-6 relative">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-2xl font-bold mb-3 text-green-400">Flutter İle Mobil Uygulama Geliştirme</h3>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>İlerleme</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="progress-bar h-2 rounded-full" style="width: 20%"></div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">KUZEM tarafından verilen Flutter, Dart ve SQL'i kapsayan kapsamlı kurstur.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Flutter</span>
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm">Dart</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">SQL</span>
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        <i class="fas fa-calendar mr-2"></i>Süreç: 3 Ay
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="course-card rounded-xl p-6 relative">
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-database"></i></div>
+                    <h3 class="text-2xl font-bold mb-3 text-green-400">SQL Mastery Workshop</h3>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>İlerleme</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="progress-bar h-2 rounded-full" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">Veritabanı yönetimi ve sorgulama becerilerimi geliştirmek için katıldığım programdır.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Tasarım</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">Raporlama</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Veri Analizi</span>
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        <i class="fas fa-calendar mr-2"></i>Süreç: 2 Ay
+                    </div>
+                </div>
+
+                <!-- Course 6 -->
+                <div class="course-card rounded-xl p-6 relative">
+                    <div class="text-4xl mb-4">🗄️</div>
+                    <h3 class="text-2xl font-bold mb-3 text-green-400">Sıfırdan İleri Seviye Linux</h3>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>İlerleme</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="progress-bar h-2 rounded-full" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">Komut satırından sistem yönetimine kadar Linux'un tüm yönlerini öğrenmeyi amaçlıyorum.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-sm">Bash Commands</span>
+                        <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm">Shell</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">SSH</span>
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        <i class="fas fa-calendar mr-2"></i>Süreç: 3 Ay
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-900/30">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span class="code-font text-green-400">&lt;</span>
+                <span class="gradient-text">Projelerim</span>
+                <span class="code-font text-green-400">/&gt;</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card rounded-xl p-6">
+                    <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-48 rounded-lg mb-4 flex items-center justify-center text-6xl">
+                        🌐
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">bulvarotolastik.com.tr</h3>
+                    <p class="text-gray-300 mb-4">Bulvar Oto Lastik Kurumu için tamamen kendim geliştirdiğim tanıtım ve portfolyo sitesi.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-sm">HTML</span>
+                        <span class="bg-violet-500/20 text-violet-300 px-2 py-1 rounded text-sm">Tailwind</span>
+                        <span class="bg-yellow-500/20 text-yellow-300 px-2 py-1 rounded text-sm">Javascript</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded transition-colors">
+                            <a href="https://github.com/ms-acar/bulvar-oto-lastik" target="_blank"><i class="fab fa-github mr-2"></i>Repository</a>                        
+                        </button>
+                        
+                        <button class="flex-1 border border-blue-600 hover:bg-blue-600/10 py-2 rounded transition-colors">
+                            <a href="https://www.bulvarotolastik.com.tr/" target="_blank"><i class="fas fa-external-link-alt mr-2"></i>Demo</a>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card rounded-xl p-6">
+                    <div class="bg-gradient-to-br from-green-500 to-teal-600 h-48 rounded-lg mb-4 flex items-center justify-center text-6xl">
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Function Plotter</h3>
+                    <p class="text-gray-300 mb-4">Tüm Matematik fonksiyonlarını kapsayan ve grafik üzerinde görselleştiren basit ancak işlevsel bir uygulamadır.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-sm">C#</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">WinForms</span>
+                        <span class="bg-green-500/20 text-green-300 px-2 py-1 rounded text-sm">ScottPlot</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        
+                        <button class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded transition-colors">
+                            <a href="https://github.com/ms-acar/winforms-function-plotter" target="_blank"><i class="fab fa-github mr-2"></i>Repository</a>
+                        </button>
+                        <button class="flex-1 border border-blue-600 hover:bg-blue-600/10 py-2 rounded transition-colors">
+                            <i class="fas fa-external-link-alt mr-2"></i>Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card rounded-xl p-6">
+                    <div class="bg-gradient-to-br from-red-500 to-orange-600 h-48 rounded-lg mb-4 flex items-center justify-center text-6xl">
+                        <i class="fa-solid fa-car-on"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Ekspertiz Rapor Uygulaması</h3>
+                    <p class="text-gray-300 mb-4">Kurumusal odaklı geliştridiğim bu projede, ekspertiz sonuçları PDF'e aktarılmaktadır</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-sm">C#</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">WinForms</span>
+                        <span class="bg-yellow-500/20 text-yellow-300 px-2 py-1 rounded text-sm">PdfSharp</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-blue-600 hover:bg-blue-700 py-2 rounded transition-colors">
+                            <i class="fab fa-github mr-2"></i>Repository
+                        </button>
+                        <button class="flex-1 border border-blue-600 hover:bg-blue-600/10 py-2 rounded transition-colors">
+                            <i class="fas fa-external-link-alt mr-2"></i>Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="section-divider"></div>
+
+                <!-- Blogs Section -->
+    <section id="blogs" class="py-20 bg-gray-900/30">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                <span class="code-font text-green-400">&lt;</span>
+                <span class="gradient-text">Bloglarım</span>
+                <span class="code-font text-green-400">/&gt;</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card rounded-xl p-6">
+                    <div>
+                        <img class="grayscale hover:grayscale-0 card-img" src="blog1.webp" alt="js">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Rehber: Vanilla JS ile iletişim formu</h3>
+                    <p class="text-gray-300 text-xs">01.05.2025</p>
+                    <p class="text-gray-300 mb-4">Kapsamlı projelerde mesaj trafiğinin yoğun olması nedeniyle iletişim için genellikle bir backend altyapısı gerekmektedir. Ancak, portföy, tanıtım veya reklam gibi statik...</p>
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-green-600 hover:bg-green-700 py-2 rounded transition-colors">
+                            <a href="https://medium.com/@muhammedsalihacar/rehber-vanilla-js-ile-s%C4%B1f%C4%B1rdan-ileti%C5%9Fim-formu-eca9fe625331" target="_blank"><i class="fab fa-medium mr-2"></i>Medium</a>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card rounded-xl p-6">
+                    <div>
+                        <img class="grayscale hover:grayscale-0 card-img" src="blog2.webp" alt="js">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">SQL Çeşitleri Arasında Kapsamlı Bir Karşılaştırma</h3>
+                    <p class="text-gray-300 mb-4">Günümüzde Structured Query Language (SQL), ilişkisel veritabanlarıyla etkileşimin evrensel dili haline gelmiştir. Ancak piyasada...</p>
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-green-600 hover:bg-green-700 py-2 rounded transition-colors">
+                            <a href="https://medium.com/@muhammedsalihacar/sql-%C3%A7e%C5%9Fitleri-aras%C4%B1nda-kapsaml%C4%B1-bir-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-d4a908dea68a" target="_blank"><i class="fab fa-medium mr-2"></i>Medium</a>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card rounded-xl p-6">
+                    <div>
+                        <img class="grayscale hover:grayscale-0 card-img" src="blog3.webp" alt="js">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Web Uygulaması Geliştirmede Kavramlar ve Araçlar</h3>
+                    <p class="text-gray-300 mb-4">Modern web uygulamaları, kullanıcı deneyiminden sunucu iletişimine kadar birçok bileşeni entegre çalıştıran dinamik...</p>
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-green-600 hover:bg-green-700 py-2 rounded transition-colors">
+                            <a href="https://medium.com/@muhammedsalihacar/web-uygulamas%C4%B1-geli%C5%9Ftirmede-kavramlar-ve-ara%C3%A7lar-9918bb293ad3" target="_blank"><i class="fab fa-medium mr-2"></i>Medium</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="section-divider"></div>
+            <section id="projects" class="py-20 bg-gray-900/30">
+            <div class="bg-transparent p-4">
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                    <span class="code-font text-green-400">&lt;</span>
+                    <span class="gradient-text">Kronoloji</span>
+                    <span class="code-font text-green-400">/&gt;</span>
+                </h2>
+                <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+                    <div class="flex md:contents flex-row-reverse">
+                        <div
+                            class="project-card rounded-xl p-6 relative p-4 my-6 text-white col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                            <h3 class="text-lg font-semibold lg:text-xl">Lise Mezuniyeti</h3>
+                            <p class="mt-2 leading-6">Lise eğitimimi Yurtdışında İngilizce olarak tamamladım.</p>
+                            <span class="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Mayıs 2024</span>
+                        </div>
+                        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                            <div class="flex items-center justify-center w-6 h-full">
+                                <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                                </div>
+                            </div>
+                            <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                        </div>
+                    </div>
+            
+                    <div class="flex md:contents">
+                        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                            <div class="flex items-center justify-center w-6 h-full">
+                                <div class="w-1 h-full bg-indigo-300"></div>
+                            </div>
+                            <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                        </div>     
+                        <div class=" project-card rounded-xl p-6 relative p-4 my-6 text-white col-start-6 col-end-10 mr-auto">
+                            <h3 class="text-lg font-semibold lg:text-xl">KTO Karatay Üniversitesi</h3>
+                            <p class="mt-2 leading-6">Bilgisayar Mühendisliği Lisans Programına katıldım.</p>
+                            <span class="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Ağustos 2024</span>
+                        </div>
+                    </div>
+            
+                    <div class="flex md:contents flex-row-reverse">
+                        <div
+                            class="project-card rounded-xl p-6 relative p-4 my-6 text-white col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                            <h3 class="text-lg font-semibold lg:text-xl">QData Sertifikasyon Hizmetleri A.Ş</h3>
+                            <p class="mt-2 leading-6">Stajyer olarak Backend Development biriminde görev aldım.</p>
+                            <span class="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Temmuz 2025</span>
+                        </div>
+                        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                            <div class="flex items-center justify-center w-6 h-full">
+                                <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                                </div>
+                            </div>
+                            <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                        </div>
+                    </div>
+            
+                    <!-- <div class="flex md:contents">
+                        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                            <div class="flex items-center justify-center w-6 h-full">
+                                <div class="w-1 h-full bg-indigo-300"></div>
+                            </div>
+                            <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                        </div>
+                        <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                            <h3 class="text-lg font-semibold lg:text-xl">Konya Teknik Üniversitesi</h3>
+                            <p class="mt-2 leading-6">Yazılım Mühendisliği Programına yatay geçiş yaptım.</p>
+                            <span class="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Temmuz 2025</span>
+                        </div>
+                    </div> -->
+                </section>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+            <section id="contact" class="pt-20 pb-10 px-10 bg-transparent text-white">
+                <div class="container-custom">
+                  <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <!-- Contact Details -->
+                    <div class="order-1" id="iletisim">
+                      <h2 class="text-3xl font-bold mb-6">
+                        Bana <span class="text-green-400">Ulaşın</span>
+                      </h2>
+                      <p class="text-xl text-gray-300 mb-8">
+                        Her türlü soru, öneri veya isteğiniz için bana rahatça ulaşabilirsiniz. En kısa zamanda size geri dönüş yapacağım.
+                      </p>
+                      <div class="space-y-6">
+                        <!-- Location -->
+                        <!-- <div class="flex items-start">
+                          <svg class="h-6 w-6 text-red-600 mt-1 mr-4 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 11c1.656 0 3-1.343 3-3s-1.344-3-3-3-3 1.343-3 3 1.344 3 3 3zm0 1c-2.667 0-8 1.333-8 4v2h16v-2c0-2.667-5.333-4-8-4z" />
+                          </svg>
+                          <div>
+                            <h3 class="font-bold text-lg mb-1">Adresimiz</h3>
+                            <p class="text-gray-300"> Cami Atik, Atatürk Blv. NO:74/A, 59310 Malkara/Tekirdağ</p>
+                          </div>
+                        </div> -->
+              
+                        <!-- Phone -->
+                        <div class="flex items-start">
+                          <svg class="h-6 w-6 text-green-400 mt-1 mr-4 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M3 5a2 2 0 012-2h1l2 5-2 1a11 11 0 006 6l1-2 5 2v1a2 2 0 01-2 2h-1c-6.627 0-12-5.373-12-12V5z" />
+                          </svg>
+                          <div>
+                            <h3 class="font-bold text-lg mb-1">Telefon</h3>
+                            <p class="text-gray-300"> 0551 879 36 56</p>
+                          </div>
+                        </div>
+              
+                        <!-- Email -->
+                        <div class="flex items-start">
+                          <svg class="h-6 w-6 text-green-400 mt-1 mr-4 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M16 12l-4-4-4 4m8 0v4a2 2 0 01-2 2H6a2 2 0 01-2-2v-4m0-4a2 2 0 012-2h8a2 2 0 012 2v4z" />
+                          </svg>
+                          <div>
+                            <h3 class="font-bold text-lg mb-1">E-posta</h3>
+                            <p class="text-gray-300">msacar23@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <!-- Social Icons -->
+                      <!-- <div class="mt-8 flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-500 transition-colors" aria-label="Facebook">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2c0-2 1.2-3 3-3h2v3h-1c-1 0-1 .5-1 1v1h3l-1 3h-2v7A10 10 0 0022 12z"/>
+                          </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-500 transition-colors" aria-label="Instagram">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.5a1 1 0 100 2 1 1 0 000-2z"/>
+                          </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-500 transition-colors" aria-label="Twitter">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 001.88-2.37 8.59 8.59 0 01-2.72 1.04A4.26 4.26 0 0016.11 4c-2.36 0-4.27 1.91-4.27 4.27 0 .33.04.66.1.97C7.7 8.99 4.07 7.13 1.64 4.16a4.26 4.26 0 00-.58 2.15c0 1.48.75 2.79 1.88 3.55a4.22 4.22 0 01-1.93-.53v.05c0 2.07 1.47 3.8 3.42 4.19a4.3 4.3 0 01-1.93.07c.55 1.71 2.13 2.96 4 2.99A8.58 8.58 0 012 19.54a12.1 12.1 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19 0-.38-.01-.57A8.72 8.72 0 0024 5.5a8.52 8.52 0 01-2.54.7z"/>
+                          </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-500 transition-colors" aria-label="LinkedIn">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4.98 3.5a2.5 2.5 0 112.5 2.5 2.5 2.5 0 01-2.5-2.5zM3 8h4v12H3zm6 0h3.8v1.75h.05a4.15 4.15 0 013.7-2.05c3.95 0 4.7 2.6 4.7 5.95V20h-4v-5.5c0-1.3-.02-3-1.85-3-1.86 0-2.15 1.45-2.15 2.9V20h-4z"/>
+                          </svg>
+                        </a>
+                      </div> -->
+                    </div>
+              
+                    <!-- Contact Form -->
+                    <div class="bg-gray-800 p-8 rounded-xl order-2">
+                      <h3 class="text-2xl font-bold mb-6">Mesaj Gönderin</h3>
+                      <form class="space-y-6">
+                        <div>
+                          <label for="name" class="block text-sm font-medium mb-1">Adınız-Soyadınız</label>
+                          <input type="text" id="name" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 font-italic" placeholder="Adınız-Soyadınız..." />
+                        </div>
+                        <div>
+                          <label for="email" class="block text-sm font-medium mb-1">E-posta</label>
+                          <input type="email" id="email" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 font-italic" placeholder="E-postanız..." />
+                        </div>
+                        <div>
+                          <label for="message" class="block text-sm font-medium mb-1">Mesajınız</label>
+                          <textarea id="message" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 font-italic" placeholder="Mesajınız..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-green-500 hover:bg-amber-600 text-black font-bold py-3 px-6 rounded-lg transition-colors">
+                          Gönder
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </section>
+              <div class="bg-gradient-to-r from-green-500 to-blue-500 text-black">
+                    <div class="flex justify-center items-center space-x-4">
+                        <a href="//www.dmca.com/Protection/Status.aspx?ID=8267f075-a06d-4103-a686-2fd7f0d4a564" title="DMCA.com Protection Status" class="dmca-badge" target="_blank"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=8267f075-a06d-4103-a686-2fd7f0d4a564"  alt="DMCA.com Protection Status" /></a>
+                        <h3 class="text-md font-bold">©2025 Tüm Hakları Saklıdır.</h3>
+                        </button>
+                    </div>
+              </div>
+
+    <button id="scrollToTopBtn" class="floating-btn scroll-to-top-btn" title="Yukarı çık">
+        <i class="fa-solid fa-angles-up"></i>
+    </button>
+    <script src="scrollTop.js"></script>
+    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+    <script src="navbar.js"></script>
+</body>
+</html>
